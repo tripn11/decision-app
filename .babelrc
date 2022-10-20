@@ -1,0 +1,10 @@
+//very important file for setting the desired presets babel would use in interpreting the react language. env interpretes the es6 to es5 and react converts react to normal js
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "transform-class-properties" //allows the writing of classless components.
+  ]
+}
